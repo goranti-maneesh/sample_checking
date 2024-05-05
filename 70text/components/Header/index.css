@@ -1,0 +1,29 @@
+.nav-content {
+  width: Hug (77px) px;
+  height: Hug (56px) px;
+  gap: 8px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-header {
+  width: Fixed (1, 440px) px;
+  height: Fixed (88px) px;
+  padding: 16px 48px 16px 48px;
+  gap: 0px;
+  justify: space-between;
+  opacity: 0px;
+}
+
+.logout-desktop-btn {
+  background-color: white;
+  color: #AFAFAF;
+  width: Hug (86px) px;
+  height: Hug (40px) px;
+  padding: 12px 24px 12px 24px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 2px solid #AFAFAF;
+  opacity: 0px;
+}

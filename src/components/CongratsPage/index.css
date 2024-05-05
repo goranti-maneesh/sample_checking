@@ -1,0 +1,5 @@
+.wonclass {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/quiz-game-congrats-card-bg.png');
+  height: 100vh;
+  background-size: cover;
+}

@@ -1,0 +1,82 @@
+.nxt-quiz {
+  font-family: Gilroy-Bold;
+  font-size: 22.5px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: #0ea5e9;
+}
+.input-label {
+  padding-bottom: 5px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #7e858e;
+}
+.username-input-filed,
+.password-input-filed {
+  width: 411px;
+  height: 40px;
+  top: 24px;
+  border-radius: 12px;
+  opacity: 0px;
+  border: 1px solid #d7dfe9;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 14px;
+}
+
+.login-form-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8fafc;
+}
+.form-container {
+  width: Hug (411px) px;
+  height: Hug (254px) px;
+  top: 380px;
+  left: 514px;
+  gap: 32px;
+  opacity: 0px;
+}
+.login-button {
+  width: 100%;
+  height: Hug (40px) px;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 8px;
+  background: #0ea5e9;
+  color: white;
+  border-width: 0px;
+}
+.checkBox-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 24px;
+  padding: 0px 3px 0px 0px;
+}
+.showPassword {
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+}
+.error-message {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: center;
+  color: #EF4444;
+
+}
