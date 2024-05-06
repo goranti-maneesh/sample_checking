@@ -1,19 +1,24 @@
 import React from 'react'
 
+// eslint-disable-next-line arrow-body-style
 const Report = ({correctAnswers, incorrectAnswers, unattemptedQuestions}) => {
   return (
     <div>
       <div>
-        <img src="https://assets.ccbp.in/frontend/react-js/quiz-game-right-check-img.png" alt="correct answer icon"/>
+        <img
+          src="https://assets.ccbp.in/frontend/react-js/quiz-game-right-check-img.png"
+          alt="correct answer icon"
+        />
         <p>{correctAnswers} Correct answers</p>
       </div>
-      
+
       <p>{incorrectAnswers} Wrong answers</p>
       <p>{unattemptedQuestions} Unattempted</p>
       {unattemptedQuestions > 0 ? (
         <div>
           <h3>Unattempted Questions</h3>
           {unattemptedQuestions.map((question, index) => (
+            // eslint-disable-next-line react/no-array-index-key
             <div key={index}>
               <p>{question.question_text}</p>
               <ul>

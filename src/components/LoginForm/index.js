@@ -22,7 +22,7 @@ class LoginForm extends Component {
     this.setState({password: event.target.value})
   }
 
-  //onSubmitSuccess = jwtToken => {}
+  // onSubmitSuccess = jwtToken => {}
 
   onSubmitFailure = errorMsg => {
     this.setState({showSubmitError: true})
@@ -46,11 +46,11 @@ class LoginForm extends Component {
 
       history.replace('/')
 
-      //this.onSubmitSuccess(data.jwt_token)
+      // this.onSubmitSuccess(data.jwt_token)
       this.setState({iserrorshow: false})
     } else {
-      //const jsondata = await response.json()
-      //console.log(data)
+      // const jsondata = await response.json()
+      // console.log(data)
       const erroormsg = data.error_msg
       this.setState({errorMsg: erroormsg, iserrorshow: true})
     }
@@ -128,7 +128,7 @@ class LoginForm extends Component {
           <button type="submit" className="login-button">
             Login
           </button>
-          {iserrorshow ? <p className="error-message">{errorMsg}</p> : <p></p>}
+          {iserrorshow ? <p className="error-message">{errorMsg}</p> : <p />}
         </form>
       </div>
     )

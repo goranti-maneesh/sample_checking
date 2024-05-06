@@ -18,11 +18,6 @@ const Home = () => {
       <Header />
       <div className="home-container">
         <div className="home-content">
-          {/*<img
-            src="https://assets.ccbp.in/frontend/react-js/quiz-game-start-the-quiz-img.png"
-            alt="start quiz game"
-            className="home-mobile-img"
-          />*/}
           <img
             src="https://assets.ccbp.in/frontend/react-js/quiz-game-start-the-quiz-img.png"
             alt="start quiz game"

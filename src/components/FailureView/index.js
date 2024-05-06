@@ -1,3 +1,4 @@
+/* eslint-disable arrow-body-style */
 // FailureView.js
 import React from 'react'
 

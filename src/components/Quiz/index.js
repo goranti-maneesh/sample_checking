@@ -1,7 +1,9 @@
+/* eslint-disable no-nested-ternary */
+/* eslint-disable no-use-before-define */
 import React, {useState, useEffect} from 'react'
+import Loader from 'react-loader-spinner'
 import Header from '../Header'
 import CongratsPage from '../CongratsPage'
-import Loader from 'react-loader-spinner'
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
 import FailureView from '../FailureView'
 import './index.css'
@@ -40,6 +42,7 @@ const Quiz = () => {
     fetchQuestions()
   }, [])
 
+  // eslint-disable-next-line consistent-return
   useEffect(() => {
     if (timerRunning) {
       const timer = setInterval(() => {

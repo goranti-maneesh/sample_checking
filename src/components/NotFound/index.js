@@ -1,5 +1,5 @@
 import {withRouter} from 'react-router-dom'
-//import './index.css'
+// import './index.css'
 
 const NotFound = props => {
   const {history} = props
